@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Game {
     public static void yesOrNo() {
         Scanner sc = new Scanner(System.in);
-        switch (sc.nextLine().toString().toLowerCase()) {
+        switch (sc.nextLine().toLowerCase()) {
             case "1":
                 System.out.println("Хорошо, тогда первый вопрос: ");
                 break;
